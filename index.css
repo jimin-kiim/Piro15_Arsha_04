@@ -1,3 +1,6 @@
+html {
+  overflow: scroll;
+}
 #services {
   background-color: #f2f5f9;
   display: flex;
@@ -70,8 +73,6 @@ body {
   margin: 0px 0px 50px;
 }
 #main-page {
-  width: 100%;
-  height: 80vh;
   background: #37517e;
   display: flex;
   flex-wrap: wrap;
