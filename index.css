@@ -1,4 +1,46 @@
-body {
+
+#services {
+  background-color: #f2f5f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#service-content {
+  display: inline-block;
+  width: 1296px;
+  height: 265px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.list-box {
+  display: inline-block;
+}
+.list li {
+  width: 305px;
+  height: 265px;
+  display: inline-block;
+}
+.main-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+.main-text {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  width: 1296px;
+  height: 48px;
+  text-align: center;
+}
+body{
   margin: 0;
   overflow: hidden;
   background: #000 url(../img/demo-bg.jpg) 0 0 repeat;
