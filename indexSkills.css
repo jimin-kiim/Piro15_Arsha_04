@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+    font-family: "Open Sans", sans-serif;
+}
+
+#skills {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+#skills-container {
+    max-width: 1320px;
+    height: 190px;
+    padding: 0 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#skills-row {
+    display: flex;
+}
+
+#skills-row img {
+    padding: 0 12px;
+    width: 50%;
+}
+
+#skills-content {
+    padding: 0 12px;
+    width: 50%;
+}
