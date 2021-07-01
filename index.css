@@ -41,6 +41,7 @@ html {
   width: 1296px;
   height: 48px;
   text-align: center;
+  line-height: 1.5;
 }
 body {
   margin: 0;
