@@ -5,19 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="indexAbout.css" rel="stylesheet" type="text/css" />
     <link href="indexWhyus.css" rel="stylesheet" type="text/css" />
     <link href="indexSkills.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="./index.css">
     <style>
-        @keyframes up-down {
-    from {
-      transform: translatey(0px);
+          @keyframes up-down {
+      from {
+        transform: translatey(0px);
+      }
+      to {
+        transform: translatey(-20px);
+      }
     }
-    to {
-      transform: translatey(-20px);
-    }
-  }
+        @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to{
+          opacity: 3;
+          transform: none;
+        }
+      }
+      @keyframes fadeIn-scaleup {
+        from {
+          opacity: 0;
+          transform: scale(0.5);
+        }
+        to{
+          opacity: 3;
+          transform: scale(1);
+        }
+      }
     </style>
 </head>
 <body>
