@@ -8,6 +8,10 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Jost", sans-serif;
+}
+
 #about {
     padding: 60px 0;
     width: 100%;
@@ -19,8 +23,8 @@ body{
 #about-container {
     padding: 0 12px;
     height: 280px;
-    margin-right: 603px;
-    margin-left: 603px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #about-title {
@@ -126,10 +130,10 @@ body{
 }
 
 .fade-in-box {
-    whyus-img: fadein 3s;
+    animation: fadeup 3s;
 }
 
-@keyframes fadein {
+@keyframes fadeup {
     from {
         opacity: 0;
     }
@@ -152,16 +156,21 @@ body{
     padding: 60px 100px 0;
 }
 
-#whyus-title hover {
-    transition: all 0.5s;
-}
-
 #whyus-title h3 {
     margin-top: 0;
     margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 34px;
+    color: #37517e;
+}
+
+#whyus-title strong {
+    font-weight: bolder;
 }
 
 #whyus-title p {
+    font-size: 15px;
+    color: #848484;
     margin-top: 0;
     margin-bottom: 16px;
 }
@@ -171,7 +180,82 @@ body{
     padding: 0 100px 60px;
 }
 
-#whyus-content ul {
+#whyus-content input[id*="answer"]{
+    display: none;
+}
+
+#whyus-content span {
+    color: #47b2e4;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.main-menu {
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.sub-menu {
+    margin-top: 15px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+#whyus-content input[id*="answer"] + label {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    /* background: #fff;
+    border-radius: 4px; */
+    cursor: pointer;
+    position: relative;
+}
+
+#whyus-content input[id*="answer"] + label:hover {
+    color: #47b2e4;
+}
+
+#whyus-content input[id*="answer"] + label em {
+    position: absolute;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin: 0;
+    background: url(./down-arrow.png); 
+    float: right;
+}
+
+#whyus-content input[id*="answer"] + label + div {
+    max-height: 0;
+    transition: all .35s;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;
+}
+
+#whyus-content input[id*="answer"] + label + div p {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#whyus-content input[id*="answer"]:checked + label +div{
+    max-height: 130px;
+}
+
+#whyus-content input[id*="answer"]:checked + label em {
+    background-position: 0 -30px;
+}
+
+
+
+/* #whyus-content ul {
     padding: 0;
     list-style: none;
     margin-top: 0;
@@ -182,9 +266,36 @@ body{
     padding: 20px;
     background: #fff;
     border-radius: 4px;
+    margin-top: 15px;
 }
 
-#whyus-container img {
+#whyus-content li .main-menu {
+    color: #343a40;
+    display: block;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+}
+
+}
+
+#whyus-content li .sub-menu {
+    display:none;
+} 
+
+#whyus-content img {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin: 0;
+    float: right;
+}*/
+
+#whyus-container > img {
     width: 42%;
     height: 485px;
     padding: 0 12px;
