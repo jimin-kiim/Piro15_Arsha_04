@@ -1,3 +1,24 @@
+.main-title::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 120px;
+  background: #ddd;
+  position: absolute;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.main-title::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #47b2e4;
+  position: absolute;
+  bottom: 1px;
+  left: calc(50% - 20px);
+}
 #services {
   background-color: #f2f5f9;
   display: flex;
@@ -45,8 +66,8 @@
   background: #fff;
 }
 .list-img {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   margin-bottom: 10px;
 }
 .list-title {
@@ -64,8 +85,8 @@
   margin-bottom: 0;
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  width: 201px;
-  height: 73px;
+  width: 246px;
+  height: 72px;
 }
 .main-title {
   font-size: 32px;
@@ -87,7 +108,6 @@
   line-height: 1.5;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
 }
 #calltoAction {
   background-color: #f2f5f9;
@@ -101,6 +121,7 @@
 }
 #content-btn {
   display: inline-block;
+  animation: fadeIn-scaleup 1s ease-in-out;
 }
 #content-btn:hover a {
   background-color: #47b2e4;
@@ -137,6 +158,7 @@
 #content-txt {
   width: 966px;
   display: inline-block;
+  animation: fadeIn-scaleup 1s ease-in-out;
 }
 #portfolio {
   background-color: #ffffff;
@@ -180,7 +202,13 @@
   transition: 0.6s;
   color: white;
 }
+#portfolio-link a:focus {
+  background-color: #47b2e4;
+  color: white;
+}
 #all {
+  background-color: #47b2e4;
+  color: white !important;
 }
 .portfolio-item {
   position: absolute;
