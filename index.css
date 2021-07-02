@@ -33,6 +33,19 @@ html {
 .list-box {
   display: inline-block;
 }
+.list li:hover .list-title {
+  color: #47b2e4;
+  transition: 0.8s;
+}
+.list li:hover {
+  transition: 0.8s;
+  transform: translateY(-10px);
+}
+.list li {
+  transition: 0.8s;
+  transform: translateY(10px);
+}
+
 .list li {
   width: 305px;
   height: 265px;
@@ -145,6 +158,7 @@ html {
 }
 #portfolio-img {
   display: block;
+  box-sizing: border-box;
 }
 #portfolio-link {
   display: inline-block;
@@ -166,6 +180,9 @@ html {
   position: absolute;
   flex: 0 0 auto;
   width: 33.3333333333%;
+  box-sizing: border-box;
+  padding: 0 12px 0 12px;
+  margin-bottom: 30px;
 }
 .portfolio-info {
   opacity: 1;
@@ -176,27 +193,28 @@ html {
   right: 15px;
   background: rgba(55, 81, 126, 0.8);
   padding: 10px 15px;
+  box-sizing: border-box;
 }
 .portfolio-info h4 {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
-  margin-bottom: 0px;
+  margin: 0;
 }
 .portfolio-info p {
   color: #f9fcfe;
   font-size: 14px;
-  margin-bottom: 0;
+  margin: 0;
 }
 .plus-img {
   position: absolute;
   right: 40px;
-  top: calc(50% - 18px);
+  top: calc(50% - 8px);
 }
 .link-img {
   position: absolute;
-  right: 70px;
-  top: calc(50% - 18px);
+  right: 12px;
+  top: calc(50% - 8px);
 }
 #img-list {
   height: 1267.11px;
