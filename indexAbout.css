@@ -286,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #skills {
-    height: 520px;
+    height: 522px;
     padding: 60px 0;
     overflow: hidden;
     background: white;
@@ -294,14 +294,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #skills-container {
     max-width: 1320px;
-    height: 390px;
+    height: 392px;
     padding: 0 12px;
     margin-right: auto;
     margin-left: auto;
 }
 
 #skills-row {
-    height: 390px;
+    height: 392px;
     display: flex;
 }
 
@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #skills-content h3 {
-    height: 74px;
+    height: 75px;
     margin-bottom: 8px;
     margin-top: 0;
     font-weight: 700;
@@ -325,11 +325,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", sans-serif;
 }
 
-#skills-content span {
+#skills-content p {
     width: 100%;
     height: 48px;
     margin-bottom: 16px;
-
 }
 
 #skills-contentDiagram {
@@ -361,4 +360,62 @@ h1, h2, h3, h4, h5, h6 {
 
 .prograss-bar {
     width: 100%;
+    height: 10px;
+    background: #e8edf5;
+}
+
+#prograss-HTML span{
+    display: block;
+    padding: 0;
+    height: 10px;
+    width: 100%;
+    background: #4668a2;
+    animation: stack-HTML .9s;
+}
+
+@keyframes stack-HTML {
+    0% { width: 0 }
+    100% { width: 100% }
+}
+
+#prograss-CSS span {
+    display: block;
+    padding: 0;
+    height: 10px;
+    width: 90%;
+    background: #4668a2;
+    animation: stack-CSS .9s;
+}
+
+@keyframes stack-CSS {
+    0% { width: 0 }
+    100% { width: 90% }
+}
+
+#prograss-JAVASCRIPT span {
+    display: block;
+    padding: 0;
+    height: 10px;
+    width: 75%;
+    background: #4668a2;
+    animation: stack-JAVASCRIPT.9s;
+}
+
+@keyframes stack-JAVASCRIPT {
+    0% { width: 0 }
+    100% { width: 75% }
+}
+
+#prograss-PHOTOSHOP span {
+    display: block;
+    padding: 0;
+    height: 10px;
+    width: 55%;
+    background: #4668a2;
+    animation: stack-PHOTOSHOP.9s;
+}
+
+@keyframes stack-PHOTOSHOP {
+    0% { width: 0 }
+    100% { width: 55% }
 }
