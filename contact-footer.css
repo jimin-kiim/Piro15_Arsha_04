@@ -1,0 +1,141 @@
+#contact {
+  background-color: #fff;
+  padding: 60px;
+}
+
+#contact #section-title {
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 30px;
+}
+
+#section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+#section-title h2::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 120px;
+  background: #ddd;
+  position: absolute;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+#section-title h2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #47b2e4;
+  position: absolute;
+  bottom: 1px;
+  left:calc(50% - 20px);
+}
+
+#section-title > p {
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  align-content: space-around;
+}
+
+.content-wrap {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 3%;
+}
+
+.info-box {
+  display: flex;
+  align-items: stretch;
+  padding: 30px;
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  background-color: #fff;
+  box-shadow: 0px 0px 24px 0px rgb(0 0 0 / 10%);
+  width: 100%;
+  flex-direction: column;
+  height: 550px;
+}
+
+#section-content #your-infobox {
+  display: flex;
+  align-items: stretch;
+}
+
+
+.content-info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #37517e;
+  display: inline-block;
+}
+
+.content-info span {
+  width: 44px;
+  height: 44px;
+}
+
+#email-icon {
+  background-image: url('./mail1.png');
+}
+
+.content-info #call-icon {
+  background-image: url('./smartphone\ 1.png');
+  width: 44px;
+  height: 44px;
+}
+.content-info #location-icon {
+  background-image: url('./mapflag1.png');
+  width: 44px;
+  height: 44px;
+}
+
+.content-info p{
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #6182ba
+}
+
+#google-map {
+  width: 90%;
+  height: 290px;
+  border: 0px;
+}
+
+.info-flexgroup {
+  display: flex;
+  flex-direction: row;  
+  align-items: stretch;
+}
+
+.form-control {
+  display: block;
+  border: 1px solid #ced4da;
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+#your-message textarea {
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
