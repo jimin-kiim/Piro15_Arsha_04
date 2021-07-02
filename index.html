@@ -8,9 +8,235 @@
 
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./webfont.css">
+    <link href="indexWhyus.css" rel="stylesheet" type="text/css" />
+    <link href="indexSkills.css" rel="stylesheet" type="text/css" />
+    <style>
+          @keyframes up-down {
+      from {
+        transform: translatey(0px);
+      }
+      to {
+        transform: translatey(-20px);
+      }
+    }
+        @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to{
+          opacity: 3;
+          transform: none;
+        }
+      }
+      @keyframes fadeIn-scaleup {
+        from {
+          opacity: 0;
+          transform: scale(0.5);
+        }
+        to{
+          opacity: 3;
+          transform: scale(1);
+        }
+      }
+    </style>
 </head>
 
 <body>
+  <main>
+        <div id="main-page">
+            <div class="text">
+                    <h1>
+                        Better Solutions For Your Business
+                    </h1>
+                    <h2>We are team of talented designers making websites with Bootstrap</h2>
+                    <div id=start_wath>
+                            <a href="">Get Started</a>
+                            <a id="watch" href=""><img src="./photo/pngwing.png"/>Watch Video</a>
+                    </div>
+            </div>
+            <img id="hero" src="./photo/hero-img.png" alt="hero-img">
+            <div id="header-end-nav">
+                <img class="header-end-logo" src="./photo/myob.png" alt="hero-img">
+                <img class="header-end-logo" src="./photo/BELIMO.png" alt="hero-img">
+                <img class="header-end-logo" src="./photo/Groups.png" alt="hero-img">
+                <img class="header-end-logo" src="./photo/lilly.png" alt="hero-img">
+                <img class="header-end-logo" src="./photo/citrus.png" alt="hero-img">
+                <img class="header-end-logo" src="./photo/Trustly.png" alt="hero-img">
+            </div>
+        </div>
+    </main>
+      <section id="about">
+        <div id="about-container">
+            <div id="about-title">
+                <h2>
+                    ABOUT US
+                    <hr id="about-longline"></hr>
+                    <hr id="about-shortline"></hr>
+                </h2>
+            </div>
+            <div class="about-row">
+                <div id="about-contentFirst">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </span>
+                    <ul>
+                        <li><img class="double_check" src="./photo/check.png"/>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+                        <li class="list-under" ><img class="double_check" src="./photo/check.png"/>Duis aute irure dolor in reprehenderit in voluptate velit</li>
+                        <li class="list-under"><img class="double_check" src="./photo/check.png"/>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+                    </ul>
+                </div>
+                <div id="about-contentSecond">
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="#">Learn More</a>
+                </div>                
+            </div>
+        </div>
+
+    </section>
+    <section id="whyus">
+        <div id="whyus-container">
+            <div id="whyus-words">
+                <div id="whyus-title" class="fade-In">
+                    <h3>
+                        Eum ipsam laborum deleniti 
+                        velit pariatur architecto aut nihil
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                </div>
+                <div id="whyus-content">
+                    <ul>
+                        <li>
+                            <span>01</span>
+                            <span>Non consectetur a erat nam at lectus urna duis?</span>
+                            <dev>
+                                <span>▽</span>
+                                <dev>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</dev>
+                            </dev>
+                        </li>
+                        <li>
+                            <span>02</span>
+                            <span>Feugiat scelerisque varius morbi enim nunc?</span>
+                            <dev>
+                                <span>▽</span>
+                                <dev>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</dev>
+                            </dev> 
+                        </li>
+                        <li>
+                            <span>03</span>
+                            <span>Dolor sit amet consectetur adipiscing elit?</span>
+                            <dev>
+                                <span>▽</span>
+                                <dev>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</dev>
+                            </dev>
+                        </li>
+                    </ul>
+                </div>                
+            </div>
+            <img src="./why-us.png">        
+        </div>
+    </section> 
+    <section id="skills">
+        <div id="skills-container">
+            <div id="skills-row">
+                <img src="./skills.png">
+                <div id="skills-content">
+                    <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+                    <span><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></span>
+                    <div id="skills-contentDiagram">
+                        <div class="prograss">
+                            <span>
+                                HTML
+                            <i class="val">100%</i>    
+                            </span>
+                            <div class="prograss-bar"></div>
+                        </div>
+                        <div class="prograss">
+                            <span>
+                                CSS
+                            <i class="val">90%</i>    
+                            </span>
+                            <div class="prograss-bar"></div>
+                        </div>
+                        <div class="prograss">
+                            <span>
+                                JAVASCRIPT
+                            <i class="val">75%</i>    
+                            </span>
+                            <div class="prograss-bar"></div>
+                        </div>
+                        <div class="prograss">
+                            <span>
+                                PHOTOSHOP
+                            <i class="val">55%</i>    
+                            </span>
+                            <div class="prograss-bar"></div>
+                        </div>
+                    </div>
+                </img>                
+            </div>
+        </div>
+    </section>
+  <div id="services">
+        <h2 class="main-title">SERVICES</h2>
+        <div class="main-bar"></div>
+        <div class="main-text">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</div>
+        <div id="service-content">
+            <ul class="list">
+                <li>
+                    <div class="list-box">
+                        <img src="./service-img1.png" class="list-img">
+                        <div class="list-title">Lorem lpsum</div>
+                        <div class="list-content">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="list-box">
+                        <img src="./service-img2.png" class="list-img">
+                        <div class="list-title">Sed ut perspici</div>
+                        <div class="list-content">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="list-box">
+                        <img src="./service-img3.png" class="list-img">
+                        <div class="list-title">Magni Dolores</div>
+                        <div class="list-content">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="list-box">
+                        <img src="./service-img4.png" class="list-img">
+                        <div class="list-title">Nemo Enim</div>
+                        <div class="list-content">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="calltoAction">
+        <div id="content-txt">
+            <div id="main-txt">Call To Action</div>
+            <div id="sub-txt">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+        <div id="content-btn">
+            <a>Call To Action</a>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div id="portfolio-container">
+        <h2 class="main-title">PORTFOLIO</h2>
+        <div class="main-bar"></div>
+        <div class="main-text">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</div>
+        </div>
+        <div id="portfolio-link">
+            <a href="">All</a>
+            <a href="">App</a>
+            <a href="">Card</a>
+            <a href="">Web</a>
+        </div>
+        <div id="img-list">
+        </div>
+    </div>
   <div id="contact">
     <div id="section-title">
       <h2>CONTACT</h2>
@@ -137,8 +363,5 @@
       </div>
     </div>
   </footer>
-    <section id="about"></section>
-    <section id="why-us"></section> 
-    <section id="skills"></section>
 </body>
 </html>
