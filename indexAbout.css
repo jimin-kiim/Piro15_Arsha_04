@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fade-in-box {
-    animation: fadeup 3s;
+    animation: fadeup 1.5s;
 }
 
 @keyframes fadeup {
