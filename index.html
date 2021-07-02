@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="indexWhyus.css" rel="stylesheet" type="text/css" />
-    <link href="indexSkills.css" rel="stylesheet" type="text/css" />
+
+    <link href="indexAbout.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./index-4.css">
     <link rel="stylesheet" href="./webfont.css">
@@ -41,6 +41,7 @@
       }
     </style>
 </head>
+
 <body>
   <main>
         <div id="main-page">
@@ -67,7 +68,7 @@
     </main>
       <section id="about">
         <div id="about-container">
-            <div id="about-title">
+            <div id="about-title" class="fade-in-box">
                 <h2>
                     ABOUT US
                     <hr id="about-longline"></hr>
@@ -75,7 +76,7 @@
                 </h2>
             </div>
             <div class="about-row">
-                <div id="about-contentFirst">
+                <div id="about-contentFirst" class="fade-in-box">
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </span>
                     <ul>
@@ -84,7 +85,7 @@
                         <li class="list-under"><img class="double_check" src="./photo/check.png"/>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
                     </ul>
                 </div>
-                <div id="about-contentSecond">
+                <div id="about-contentSecond" class="fade-in-box">
                     <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <a href="#">Learn More</a>
                 </div>                
@@ -95,80 +96,79 @@
     <section id="whyus">
         <div id="whyus-container">
             <div id="whyus-words">
-                <div id="whyus-title" class="fade-In">
+                <div id="whyus-title" class="fade-in-box">
                     <h3>
                         Eum ipsam laborum deleniti 
-                        velit pariatur architecto aut nihil
+                        <strong>velit pariatur architecto aut nihil</strong> 
                     </h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
                 </div>
-                <div id="whyus-content">
-                    <ul>
-                        <li>
-                            <span>01</span>
-                            <span>Non consectetur a erat nam at lectus urna duis?</span>
-                            <dev>
-                                <span>▽</span>
-                                <dev>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</dev>
-                            </dev>
-                        </li>
-                        <li>
-                            <span>02</span>
-                            <span>Feugiat scelerisque varius morbi enim nunc?</span>
-                            <dev>
-                                <span>▽</span>
-                                <dev>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</dev>
-                            </dev> 
-                        </li>
-                        <li>
-                            <span>03</span>
-                            <span>Dolor sit amet consectetur adipiscing elit?</span>
-                            <dev>
-                                <span>▽</span>
-                                <dev>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</dev>
-                            </dev>
-                        </li>
-                    </ul>
-                </div>                
+                <div id="whyus-content" class="fade-in-box">
+                  <div class="main-menu">
+                    <input type="radio" name="accordion" id="answer01">
+                    <label for="answer01"> <span>01</span> Non consectetur a erat nam at lectus urna duis?<img></img></label>
+                    <div><p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p></div>
+                  </div>
+                  <div class="sub-menu">
+                    <input type="radio" name="accordion" id="answer02">
+                    <label for="answer02"><span>02</span> Feugiat scelerisque varius morbi enim nunc?<img></img></label>
+                    <div><p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p></div>
+                  </div>
+                  <div class="sub-menu">
+                    <input type="radio" name="accordion" id="answer03">
+                    <label for="answer03"><span>03</span> Dolor sit amet consectetur adipiscing elit?<img></img></label>
+                    <div><p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p></div>
+                  </div>
+                </div>
             </div>
-            <img src="./why-us.png">        
+            <img src="./why-us.png" class="fade-in-box">        
+
         </div>
     </section> 
     <section id="skills">
         <div id="skills-container">
             <div id="skills-row">
-                <img src="./skills.png">
-                <div id="skills-content">
+                <img src="./skills.png" class="fade-in-box">
+                <div id="skills-content" class="fade-in-box">
+
                     <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
-                    <span><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></span>
+                    <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></p>
                     <div id="skills-contentDiagram">
                         <div class="prograss">
                             <span>
                                 HTML
                             <i class="val">100%</i>    
                             </span>
-                            <div class="prograss-bar"></div>
+                            <div class="prograss-bar" id="prograss-HTML">
+                              <span> </span>
+                            </div>
                         </div>
                         <div class="prograss">
                             <span>
                                 CSS
                             <i class="val">90%</i>    
                             </span>
-                            <div class="prograss-bar"></div>
+                            <div class="prograss-bar" id="prograss-CSS">
+                              <span> </span>
+                            </div>
                         </div>
                         <div class="prograss">
                             <span>
                                 JAVASCRIPT
                             <i class="val">75%</i>    
                             </span>
-                            <div class="prograss-bar"></div>
+                            <div class="prograss-bar" id="prograss-JAVASCRIPT">
+                              <span> </span>
+                            </div>
                         </div>
                         <div class="prograss">
                             <span>
                                 PHOTOSHOP
                             <i class="val">55%</i>    
                             </span>
-                            <div class="prograss-bar"></div>
+                            <div class="prograss-bar" id="prograss-PHOTOSHOP">
+                              <span> </span>
+                            </div>
                         </div>
                     </div>
                 </img>                
@@ -182,29 +182,29 @@
             <ul class="list">
                 <li>
                     <div class="list-box">
-                        <img src="./photo/service-img1.jpg" class="list-img">
-                        <a href="" class="list-title">Lorem lpsum</a>
+                        <img src="./photo/service-img1.png" class="list-img">
+                        <div class="list-title">Lorem lpsum</div>
                         <div class="list-content">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</div>
                     </div>
                 </li>
                 <li>
                     <div class="list-box">
-                        <img src="./photo/service-img2.jpg" class="list-img">
-                        <a href="" class="list-title">Sed ut perspici</a>
+                        <img src="./photo/service-img2.png" class="list-img">
+                        <div class="list-title">Sed ut perspici</div>
                         <div class="list-content">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</div>
                     </div>
                 </li>
                 <li>
                     <div class="list-box">
-                        <img src="./photo/service-img3.jpg" class="list-img">
-                        <a href="" class="list-title">Magni Dolores</a>
+                        <img src="./photo/service-img3.png" class="list-img">
+                        <div class="list-title">Magni Dolores</div>
                         <div class="list-content">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</div>
                     </div>
                 </li>
                 <li>
                     <div class="list-box">
-                        <img src="./photo/service-img4.jpg" class="list-img">
-                        <a href="" class="list-title">Nemo Enim</a>
+                        <div class="list-title">Nemo Enim</div>
+                        <img src="./photo/service-img4.png" class="list-img">
                         <div class="list-content">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</div>
                     </div>
                 </li>
@@ -335,47 +335,64 @@
         </div>
       </div>
   <div id="contact">
-    <h2>CONTACT</h2>
-    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-    <div id="info-box">
-      <div id="info-location">
-        <div><img url="" /></div>
-        <h4>Location:</h4>
-        <p>A108 Adam Street, New York, NY 535022</p>
-      </div> 
-      <div id="info-email">
-        <div><img url="" /></div>
-        <h4>Email:</h4>
-        <p>info@example.com</p>
-      </div> 
-      <div id="info-call">
-        <div><img url="" /></div>
-        <h4>Call:</h4>
-        <p>+1 5589 55488 55s</p>
-      </div>
-      <div id="info-map"></div>
+    <div id="section-title">
+      <h2>CONTACT</h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
     </div>
-    <div id="your-info-box">
-      <div id="your-name">
-        <h5>Your Name</h5>
-        <input type=text />
+    <div class="row">
+      <div class="content-wrap">
+        <div class="info-box">
+          <div class="content-info">
+            <span id="location-icon"></span>
+            <h4>Location:</h4>
+            <p>A108 Adam Street, New York, NY 535022</p>
+          </div> 
+          <div class="content-info">
+            <span id="email-icon"></span>
+            <h4>Email:</h4>
+            <p>info@example.com</p>
+          </div> 
+          <div class="content-info">
+            <span id="call-cion"></span>
+            <h4>Call:</h4>
+            <p>+1 5589 55488 55s</p>
+          </div>
+          <iframe  width="100%" height="290px" style="border:0" loading="lazy" allowfullscreen
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621">
+          </iframe>
+        </div>
       </div>
-      <div id="your-email">
-        <h5>Your Email</h5>
-        <input type=text />
-      </div>
-      <div id="your-subject">
-        <h5>Subject</h5>
-        <input type=text />
-      </div>
-      <div id="your-message">
-        <h5>Message</h5>
-        <input type=text />
-      </div>
-      <div>
-        <button id="send-message">Send Message</button>
+      <div class="content-wrap">
+        <form action="forms/contact.php" method="post" class="info-box">
+          <div class="info-flexgroup">
+            <div id="your-name">
+              <label for="name">Your Name</label>
+              <input type="text" class="form-control"/>
+            </div>
+            <div id="your-email">
+              <label for="name">Your Email</label>
+              <input type="email" class="form-control" />
+            </div>
+          </div>
+          
+          <div id="your-subject">
+            <label for="name">Subject</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div id="your-message">
+            <label for="name">Message</label>
+            <textarea class="form-control"></textarea>
+          </div>
+          <div>
+            <button id="send-message">Send Message</button>
+            </div>
+        </form>
       </div>
     </div>
+    
+      
+    
+    
   </div>
   <footer>
     <div id="footer-newsletter">
