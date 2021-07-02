@@ -87,7 +87,7 @@ html {
 #calltoAction {
   background-color: #f2f5f9;
   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
-    url(./cta-bg.jpeg) fixed center center;
+    url(./photo/cta-bg.jpeg) fixed center center;
   background-size: cover;
   padding: 120px 0;
   display: flex;
@@ -129,7 +129,7 @@ html {
   display: inline-block;
 }
 #portfolio {
-  background-color: #f2f5f9;
+  background-color: #ffffff;
   height: 1614px;
   padding: 60px 0;
   display: flex;
@@ -139,21 +139,76 @@ html {
 #portfolio-container {
   padding-bottom: 30px;
   width: 1296px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #portfolio-link {
   display: inline-block;
-  height: 51px;
-  padding: 10px 0 10px 0;
+  margin: 0 0 20px 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
 }
 #portfolio-link a {
   text-decoration: none;
   margin: 10px 5px;
-  font-size: 15px;
   font-weight: 500;
   line-height: 1;
   padding: 8px 20px;
   border-radius: 50px;
+  color: #444444;
 }
+.portfolio-item {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  flex: 0 0 auto;
+  width: 33.3333333333%;
+}
+.portfolio-info {
+  opacity: 1;
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+  z-index: 3;
+  right: 15px;
+  background: rgba(55, 81, 126, 0.8);
+  padding: 10px 15px;
+}
+.portfolio-info h4 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.portfolio-info p {
+  color: #f9fcfe;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.plus-img {
+  position: absolute;
+  right: 40px;
+  top: calc(50% - 18px);
+}
+.link-img {
+  position: absolute;
+  right: 70px;
+  top: calc(50% - 18px);
+}
+#img-list {
+  height: 1267.11px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1320px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 .first-block,
 .second-block,
 .third-block {
